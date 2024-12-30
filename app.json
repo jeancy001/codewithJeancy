@@ -4,24 +4,31 @@
     "slug": "client",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/code.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/R.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jeancy.client"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ACoding.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jeancy.client"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/ACoding.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "84c3e9fd-b927-4af1-9ee1-43f6f98cb1c1"
+      }
     }
   }
 }
